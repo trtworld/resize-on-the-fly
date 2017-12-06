@@ -65,7 +65,7 @@ Resizing focus is in the center of the image. What ever dimensions you want you 
 
 # Crop
 
-CloudFormation template of resize on the fly. Used services include:
+CloudFormation template of crop. Used services include:
 - S3
 - Api Gateway
 - Lambda
@@ -83,7 +83,7 @@ You will send a post request to your Lambda's invoke url.
 
 Payload: `{"key": "image.jpg", "w": 100, "h":100, "x": 15, "y": 20}`
 
-In response you will get cropped image link.
+In response you will get your cropped image link.
 
 `{"url": "http://s3-{your_region}.amazonaws.com/{your_bucket}/image_1512560021767.jpg"}`
 
@@ -93,7 +93,7 @@ Upon creating the stack you will be asked to type an S3 bucket name and Api name
 
 **Usage**
 
-`key` as string
+`key` is for filename as string
 
 `w` is for width as integer
 
@@ -113,7 +113,7 @@ Crop coordinates start from top left of the image. Supported image containers ar
 
 **Possible Improvements**
 
-- Configure Api Gateway to not allow unauthorized usage or abuse
+- Configure Api Gateway to not allow unauthorized usage
 - Add error handling in Lambda to get more helpful error responses for the users 
 
 
