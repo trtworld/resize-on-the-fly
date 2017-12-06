@@ -51,4 +51,5 @@ Resizing focus is in the center of the image. What ever dimensions you want you 
 
 **Notes**
 
-By default we set lambda memory to 640MB because we find it to be optimum setting for standard usage. It will be enough for 8k images.
+- By default we set lambda memory to 640MB because we find it to be optimum setting for standard usage. It will be enough for 8k images.
+- In lambda you will find an enviromental variable `cache_age` set to 86400(a day). You might want to change it to fit your needs
