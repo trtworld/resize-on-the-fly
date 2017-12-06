@@ -53,7 +53,7 @@ Resizing focus is in the center of the image. What ever dimensions you want you 
 - Add a list of allowed resolution in Lambda code to prevent abuse usage of unwanted resolutions
 - Add an error page in Lambda. You will redirect to this error page when ever something goes wrong with Lambda
 - Enable Api Gateway cache to improve slight performance increase for error responses
-- Usage other features of Sharp library. This template configured for basic usage. See doc for[Sharp](http://sharp.dimens.io/en/stable/).
+- Usage other features of Sharp library. This template configured for basic usage. See doc for [Sharp](http://sharp.dimens.io/en/stable/).
 
 **Notes**
 
