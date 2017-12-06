@@ -26,7 +26,7 @@ By adding `/w{}/h{}/q{}` parameters you will get the desired image on the fly
 
 **Using The Template**
 
-Upon creating the stack you will be asked to type an S3 buket name and Api name. During the installation, it will download a node.js deployment package for your Lambda from TRT World.
+Upon creating the stack you will be asked to type an S3 bucket name and Api name. During the installation, it will download a node.js deployment package for your Lambda from TRT World.
 
 **Usage**
 
