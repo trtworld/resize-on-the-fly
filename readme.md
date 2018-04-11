@@ -57,6 +57,7 @@ Resizing focus is in the center of the image. What ever dimensions you want you 
 
 **Notes**
 
+- Right now works only in eu-west-1
 - By default we set Lambda memory to 640MB because we find it to be optimum setting for standard usage. It will be enough for 8k images.
 - In Lambda you will find an environmental variable `cache_age` set to 86400(a day). You might want to change it to fit your needs.
 - Sharp library doesn't support GIFs. You need to use additional library if you want resize on the fly to work on GIFs as well.
@@ -119,6 +120,7 @@ Crop coordinates start from top left of the image. Supported image containers ar
 
 **Notes**
 
+- Right now works only in eu-west-1
 - By default we set Lambda memory to 640MB because we find it to be optimum setting for standard usage.
 - Sharp library doesn't support GIFs. You need to use additional library if you want crop to work on GIFs as well.
 - Usage other features of Sharp library. This template configured for basic usage. See doc for [Sharp](http://sharp.dimens.io/en/stable).
